@@ -7,23 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49C3A1F333F021F3A0F59086 /* Pods_Simple_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E38FDB04A52F6C1721A3784 /* Pods_Simple_Messenger.framework */; };
+		8B0AD1252934DAD00001F31B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AD1242934DAD00001F31B /* LoginViewController.swift */; };
+		8B0AD12A2934E0DB0001F31B /* SlideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AD1282934E0DB0001F31B /* SlideCollectionViewCell.swift */; };
+		8B0AD12B2934E0DB0001F31B /* SlideCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B0AD1292934E0DB0001F31B /* SlideCollectionViewCell.xib */; };
+		8B0AD12D29350FAB0001F31B /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AD12C29350FAB0001F31B /* Slide.swift */; };
+		8B0AD12F293515990001F31B /* SliderSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AD12E293515990001F31B /* SliderSlides.swift */; };
 		8B683B0A2934C20300BC1B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B683B092934C20300BC1B24 /* AppDelegate.swift */; };
 		8B683B0C2934C20300BC1B24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B683B0B2934C20300BC1B24 /* SceneDelegate.swift */; };
-		8B683B0E2934C20300BC1B24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B683B0D2934C20300BC1B24 /* ViewController.swift */; };
 		8B683B112934C20300BC1B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B683B0F2934C20300BC1B24 /* Main.storyboard */; };
 		8B683B132934C20500BC1B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B683B122934C20500BC1B24 /* Assets.xcassets */; };
 		8B683B162934C20500BC1B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B683B142934C20500BC1B24 /* LaunchScreen.storyboard */; };
+		8B683B1E2934C3D700BC1B24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B683B1D2934C3D700BC1B24 /* GoogleService-Info.plist */; };
+		8B779E5D2937A5E7002E2FA7 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B779E5C2937A5E7002E2FA7 /* AuthResponse.swift */; };
+		8B779E652937E96B002E2FA7 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B779E642937E96B002E2FA7 /* UsersViewController.swift */; };
+		8B779E692937EC3F002E2FA7 /* UserCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B779E672937EC3F002E2FA7 /* UserCellTableViewCell.swift */; };
+		8B779E6A2937EC3F002E2FA7 /* UserCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B779E682937EC3F002E2FA7 /* UserCellTableViewCell.xib */; };
+		8BC36ADC2936356400B82416 /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC36ADB2936356400B82416 /* RegViewController.swift */; };
+		8BC36ADE2936357700B82416 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC36ADD2936357700B82416 /* AuthViewController.swift */; };
+		8BC36AE02936370300B82416 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC36ADF2936370300B82416 /* AppViewController.swift */; };
+		8BC36AE32936891A00B82416 /* LoginViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC36AE22936891900B82416 /* LoginViewControllerDelegate.swift */; };
+		8BC36AE52936ABF500B82416 /* CheckField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC36AE42936ABF500B82416 /* CheckField.swift */; };
+		8BC36AE72936BAD100B82416 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC36AE62936BAD100B82416 /* Service.swift */; };
+		8BC36AE92936BBFF00B82416 /* LoginField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC36AE82936BBFF00B82416 /* LoginField.swift */; };
+		8BC36AEE2937535600B82416 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8BC36AED2937535600B82416 /* FirebaseFirestore */; };
+		8BD52C7329381389009F76AD /* MessageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD52C7229381389009F76AD /* MessageListViewController.swift */; };
+		8BD52C7529381684009F76AD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD52C7429381684009F76AD /* ChatViewController.swift */; };
+		8BD52C78293816B7009F76AD /* SenderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD52C77293816B7009F76AD /* SenderType.swift */; };
+		8BD52C7A293816C4009F76AD /* MessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD52C79293816C4009F76AD /* MessageType.swift */; };
+		8BD52C7E2938B855009F76AD /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD52C7D2938B855009F76AD /* CurrentUser.swift */; };
+		8BFAEADD293758E00033D515 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFAEADC293758E00033D515 /* FirebaseAuth */; };
+		8BFAEADF293758E00033D515 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFAEADE293758E00033D515 /* FirebaseDatabase */; };
+		8BFAEAE1293758E00033D515 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFAEAE0293758E00033D515 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E38FDB04A52F6C1721A3784 /* Pods_Simple_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		694F367B402816ED43803F70 /* Pods-Simple Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Messenger.release.xcconfig"; path = "Target Support Files/Pods-Simple Messenger/Pods-Simple Messenger.release.xcconfig"; sourceTree = "<group>"; };
+		8B0AD1242934DAD00001F31B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B0AD1282934E0DB0001F31B /* SlideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B0AD1292934E0DB0001F31B /* SlideCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideCollectionViewCell.xib; sourceTree = "<group>"; };
+		8B0AD12C29350FAB0001F31B /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		8B0AD12E293515990001F31B /* SliderSlides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSlides.swift; sourceTree = "<group>"; };
 		8B683B062934C20300BC1B24 /* Simple Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B683B092934C20300BC1B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B683B0B2934C20300BC1B24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B683B0D2934C20300BC1B24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B683B102934C20300BC1B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B683B122934C20500BC1B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B683B152934C20500BC1B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B683B172934C20500BC1B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B683B1D2934C3D700BC1B24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B779E5C2937A5E7002E2FA7 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		8B779E642937E96B002E2FA7 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		8B779E672937EC3F002E2FA7 /* UserCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellTableViewCell.swift; sourceTree = "<group>"; };
+		8B779E682937EC3F002E2FA7 /* UserCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCellTableViewCell.xib; sourceTree = "<group>"; };
+		8BC36ADB2936356400B82416 /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
+		8BC36ADD2936357700B82416 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		8BC36ADF2936370300B82416 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		8BC36AE22936891900B82416 /* LoginViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerDelegate.swift; sourceTree = "<group>"; };
+		8BC36AE42936ABF500B82416 /* CheckField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckField.swift; sourceTree = "<group>"; };
+		8BC36AE62936BAD100B82416 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8BC36AE82936BBFF00B82416 /* LoginField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginField.swift; sourceTree = "<group>"; };
+		8BD52C7229381389009F76AD /* MessageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewController.swift; sourceTree = "<group>"; };
+		8BD52C7429381684009F76AD /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8BD52C77293816B7009F76AD /* SenderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderType.swift; sourceTree = "<group>"; };
+		8BD52C79293816C4009F76AD /* MessageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageType.swift; sourceTree = "<group>"; };
+		8BD52C7D2938B855009F76AD /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		B183A4B6EF1E0E73B79E992E /* Pods-Simple Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Messenger.debug.xcconfig"; path = "Target Support Files/Pods-Simple Messenger/Pods-Simple Messenger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFAEADD293758E00033D515 /* FirebaseAuth in Frameworks */,
+				8BFAEADF293758E00033D515 /* FirebaseDatabase in Frameworks */,
+				8BFAEAE1293758E00033D515 /* FirebaseFirestore in Frameworks */,
+				8BC36AEE2937535600B82416 /* FirebaseFirestore in Frameworks */,
+				49C3A1F333F021F3A0F59086 /* Pods_Simple_Messenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E1B1209569475BA6CF68150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E38FDB04A52F6C1721A3784 /* Pods_Simple_Messenger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B0AD1212934D5580001F31B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BD52C762938168D009F76AD /* Chat Models */,
+				8BD52C7B29381721009F76AD /* Login Models */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B0AD1222934D55F0001F31B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BD52C712938135D009F76AD /* Chat */,
+				8B779E662937EC15002E2FA7 /* Users */,
+				8B779E6B2937EDB6002E2FA7 /* SlideCollection */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B0AD1232934D5670001F31B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AD1272934DAF90001F31B /* App */,
+				8B0AD1262934DAE10001F31B /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B0AD1262934DAE10001F31B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AD1242934DAD00001F31B /* LoginViewController.swift */,
+				8BC36ADB2936356400B82416 /* RegViewController.swift */,
+				8BC36ADD2936357700B82416 /* AuthViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8B0AD1272934DAF90001F31B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8B779E5E2937E851002E2FA7 /* Users */,
+				8B779E5F2937E858002E2FA7 /* Messenger */,
+				8BC36ADF2936370300B82416 /* AppViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		8B683AFD2934C20300BC1B24 = {
 			isa = PBXGroup;
 			children = (
 				8B683B082934C20300BC1B24 /* Simple Messenger */,
 				8B683B072934C20300BC1B24 /* Products */,
+				BFC48CC111166767E69B4EA2 /* Pods */,
+				7E1B1209569475BA6CF68150 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +169,117 @@
 		8B683B082934C20300BC1B24 /* Simple Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				8BD52C7C293820E3009F76AD /* Firebase */,
+				8B779E5B2937A5D2002E2FA7 /* Responses */,
+				8BC36AE1293688DB00B82416 /* Protocols */,
+				8B0AD1212934D5580001F31B /* Model */,
+				8B0AD1222934D55F0001F31B /* View */,
+				8B0AD1232934D5670001F31B /* Controller */,
 				8B683B092934C20300BC1B24 /* AppDelegate.swift */,
 				8B683B0B2934C20300BC1B24 /* SceneDelegate.swift */,
-				8B683B0D2934C20300BC1B24 /* ViewController.swift */,
 				8B683B0F2934C20300BC1B24 /* Main.storyboard */,
 				8B683B122934C20500BC1B24 /* Assets.xcassets */,
 				8B683B142934C20500BC1B24 /* LaunchScreen.storyboard */,
 				8B683B172934C20500BC1B24 /* Info.plist */,
+				8B683B1D2934C3D700BC1B24 /* GoogleService-Info.plist */,
 			);
 			path = "Simple Messenger";
+			sourceTree = "<group>";
+		};
+		8B779E5B2937A5D2002E2FA7 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				8B779E5C2937A5E7002E2FA7 /* AuthResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		8B779E5E2937E851002E2FA7 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				8B779E642937E96B002E2FA7 /* UsersViewController.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		8B779E5F2937E858002E2FA7 /* Messenger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messenger;
+			sourceTree = "<group>";
+		};
+		8B779E662937EC15002E2FA7 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				8B779E672937EC3F002E2FA7 /* UserCellTableViewCell.swift */,
+				8B779E682937EC3F002E2FA7 /* UserCellTableViewCell.xib */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		8B779E6B2937EDB6002E2FA7 /* SlideCollection */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AD1282934E0DB0001F31B /* SlideCollectionViewCell.swift */,
+				8B0AD1292934E0DB0001F31B /* SlideCollectionViewCell.xib */,
+			);
+			path = SlideCollection;
+			sourceTree = "<group>";
+		};
+		8BC36AE1293688DB00B82416 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8BC36AE22936891900B82416 /* LoginViewControllerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8BD52C712938135D009F76AD /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8BD52C7229381389009F76AD /* MessageListViewController.swift */,
+				8BD52C7429381684009F76AD /* ChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		8BD52C762938168D009F76AD /* Chat Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BD52C77293816B7009F76AD /* SenderType.swift */,
+				8BD52C79293816C4009F76AD /* MessageType.swift */,
+				8BD52C7D2938B855009F76AD /* CurrentUser.swift */,
+			);
+			path = "Chat Models";
+			sourceTree = "<group>";
+		};
+		8BD52C7B29381721009F76AD /* Login Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AD12C29350FAB0001F31B /* Slide.swift */,
+				8B0AD12E293515990001F31B /* SliderSlides.swift */,
+				8BC36AE42936ABF500B82416 /* CheckField.swift */,
+				8BC36AE82936BBFF00B82416 /* LoginField.swift */,
+			);
+			path = "Login Models";
+			sourceTree = "<group>";
+		};
+		8BD52C7C293820E3009F76AD /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				8BC36AE62936BAD100B82416 /* Service.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		BFC48CC111166767E69B4EA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B183A4B6EF1E0E73B79E992E /* Pods-Simple Messenger.debug.xcconfig */,
+				694F367B402816ED43803F70 /* Pods-Simple Messenger.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +289,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B683B1A2934C20500BC1B24 /* Build configuration list for PBXNativeTarget "Simple Messenger" */;
 			buildPhases = (
+				358B81D5C0A43B386625F92B /* [CP] Check Pods Manifest.lock */,
 				8B683B022934C20300BC1B24 /* Sources */,
 				8B683B032934C20300BC1B24 /* Frameworks */,
 				8B683B042934C20300BC1B24 /* Resources */,
+				3563D573C03B58476A1AE815 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Simple Messenger";
+			packageProductDependencies = (
+				8BC36AED2937535600B82416 /* FirebaseFirestore */,
+				8BFAEADC293758E00033D515 /* FirebaseAuth */,
+				8BFAEADE293758E00033D515 /* FirebaseDatabase */,
+				8BFAEAE0293758E00033D515 /* FirebaseFirestore */,
+			);
 			productName = "Simple Messenger";
 			productReference = 8B683B062934C20300BC1B24 /* Simple Messenger.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +334,10 @@
 				Base,
 			);
 			mainGroup = 8B683AFD2934C20300BC1B24;
+			packageReferences = (
+				8BC36AEC2937535600B82416 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8BFAEADB293758E00033D515 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8B683B072934C20300BC1B24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +352,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B779E6A2937EC3F002E2FA7 /* UserCellTableViewCell.xib in Resources */,
 				8B683B162934C20500BC1B24 /* LaunchScreen.storyboard in Resources */,
+				8B0AD12B2934E0DB0001F31B /* SlideCollectionViewCell.xib in Resources */,
+				8B683B1E2934C3D700BC1B24 /* GoogleService-Info.plist in Resources */,
 				8B683B132934C20500BC1B24 /* Assets.xcassets in Resources */,
 				8B683B112934C20300BC1B24 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +363,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3563D573C03B58476A1AE815 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Simple Messenger/Pods-Simple Messenger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Simple Messenger/Pods-Simple Messenger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Simple Messenger/Pods-Simple Messenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		358B81D5C0A43B386625F92B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Simple Messenger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B683B022934C20300BC1B24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B683B0E2934C20300BC1B24 /* ViewController.swift in Sources */,
+				8B0AD12A2934E0DB0001F31B /* SlideCollectionViewCell.swift in Sources */,
+				8BC36AE52936ABF500B82416 /* CheckField.swift in Sources */,
+				8BC36AE32936891A00B82416 /* LoginViewControllerDelegate.swift in Sources */,
+				8BD52C7A293816C4009F76AD /* MessageType.swift in Sources */,
+				8B0AD1252934DAD00001F31B /* LoginViewController.swift in Sources */,
+				8B0AD12F293515990001F31B /* SliderSlides.swift in Sources */,
+				8BD52C7329381389009F76AD /* MessageListViewController.swift in Sources */,
+				8BC36AE72936BAD100B82416 /* Service.swift in Sources */,
 				8B683B0A2934C20300BC1B24 /* AppDelegate.swift in Sources */,
+				8B779E652937E96B002E2FA7 /* UsersViewController.swift in Sources */,
+				8B779E692937EC3F002E2FA7 /* UserCellTableViewCell.swift in Sources */,
+				8BC36ADE2936357700B82416 /* AuthViewController.swift in Sources */,
+				8BD52C78293816B7009F76AD /* SenderType.swift in Sources */,
 				8B683B0C2934C20300BC1B24 /* SceneDelegate.swift in Sources */,
+				8BC36AE02936370300B82416 /* AppViewController.swift in Sources */,
+				8B0AD12D29350FAB0001F31B /* Slide.swift in Sources */,
+				8BC36ADC2936356400B82416 /* RegViewController.swift in Sources */,
+				8B779E5D2937A5E7002E2FA7 /* AuthResponse.swift in Sources */,
+				8BD52C7529381684009F76AD /* ChatViewController.swift in Sources */,
+				8BD52C7E2938B855009F76AD /* CurrentUser.swift in Sources */,
+				8BC36AE92936BBFF00B82416 /* LoginField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +572,7 @@
 		};
 		8B683B1B2934C20500BC1B24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B183A4B6EF1E0E73B79E992E /* Pods-Simple Messenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +586,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,12 +596,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8B683B1C2934C20500BC1B24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694F367B402816ED43803F70 /* Pods-Simple Messenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +616,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +626,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +652,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8BC36AEC2937535600B82416 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		8BFAEADB293758E00033D515 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8BC36AED2937535600B82416 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BC36AEC2937535600B82416 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8BFAEADC293758E00033D515 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BFAEADB293758E00033D515 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8BFAEADE293758E00033D515 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BFAEADB293758E00033D515 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		8BFAEAE0293758E00033D515 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BFAEADB293758E00033D515 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B683AFE2934C20300BC1B24 /* Project object */;
 }

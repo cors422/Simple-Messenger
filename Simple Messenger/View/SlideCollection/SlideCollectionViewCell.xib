@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SlideCollectionViewCell" id="gTV-IL-0wX" customClass="SlideCollectionViewCell" customModule="Simple_Messenger" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="612"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="310" height="612"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eY5-E6-qVw">
+                        <rect key="frame" x="0.0" y="0.0" width="310" height="612"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide3" translatesAutoresizingMaskIntoConstraints="NO" id="f0Q-jP-RF1">
+                                <rect key="frame" x="0.0" y="0.0" width="310" height="612"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5M7-UZ-FKG">
+                                <rect key="frame" x="122.5" y="532" width="65" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Войти"/>
+                                <connections>
+                                    <action selector="authButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="nm6-Dg-H5N"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simple  Messenger" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xh-Iu-c6B">
+                                <rect key="frame" x="25" y="100" width="265" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgM-l7-ers">
+                                <rect key="frame" x="30" y="467" width="250" height="40"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Axc-CW-YmY"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Регистрация">
+                                    <backgroundConfiguration key="background"/>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="regButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="vQ2-sL-taR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text texttext texttext texttext texttext texttext texttext texttext texttext texttext texttext text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXU-Wk-KhV">
+                                <rect key="frame" x="25" y="230" width="260" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="f0Q-jP-RF1" secondAttribute="bottom" id="3wR-b0-lfc"/>
+                            <constraint firstAttribute="trailing" secondItem="0xh-Iu-c6B" secondAttribute="trailing" constant="20" symbolic="YES" id="D96-Ja-FIB"/>
+                            <constraint firstItem="iXU-Wk-KhV" firstAttribute="leading" secondItem="eY5-E6-qVw" secondAttribute="leading" constant="25" id="GIo-Yo-PFw"/>
+                            <constraint firstAttribute="trailing" secondItem="FgM-l7-ers" secondAttribute="trailing" constant="30" id="Gac-FI-p3z"/>
+                            <constraint firstAttribute="trailing" secondItem="iXU-Wk-KhV" secondAttribute="trailing" constant="25" id="Nq0-o9-9BG"/>
+                            <constraint firstAttribute="trailing" secondItem="f0Q-jP-RF1" secondAttribute="trailing" id="Ss6-5T-l3s"/>
+                            <constraint firstItem="5M7-UZ-FKG" firstAttribute="top" secondItem="FgM-l7-ers" secondAttribute="bottom" constant="25" id="TAd-W5-FvB"/>
+                            <constraint firstItem="0xh-Iu-c6B" firstAttribute="top" secondItem="eY5-E6-qVw" secondAttribute="top" constant="100" id="Ttw-eu-TqT"/>
+                            <constraint firstItem="FgM-l7-ers" firstAttribute="leading" secondItem="eY5-E6-qVw" secondAttribute="leading" constant="30" id="WGt-sF-4lc"/>
+                            <constraint firstItem="f0Q-jP-RF1" firstAttribute="top" secondItem="eY5-E6-qVw" secondAttribute="top" id="WbR-Tp-CzI"/>
+                            <constraint firstItem="0xh-Iu-c6B" firstAttribute="leading" secondItem="eY5-E6-qVw" secondAttribute="leading" constant="25" id="cMD-RJ-Vv0"/>
+                            <constraint firstItem="iXU-Wk-KhV" firstAttribute="top" secondItem="0xh-Iu-c6B" secondAttribute="bottom" constant="70" id="dcp-hG-qxw"/>
+                            <constraint firstAttribute="bottom" secondItem="5M7-UZ-FKG" secondAttribute="bottom" constant="49" id="fNI-8j-FEV"/>
+                            <constraint firstItem="f0Q-jP-RF1" firstAttribute="leading" secondItem="eY5-E6-qVw" secondAttribute="leading" id="hay-no-AaH"/>
+                            <constraint firstItem="5M7-UZ-FKG" firstAttribute="centerX" secondItem="eY5-E6-qVw" secondAttribute="centerX" id="wHf-SW-86h"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="eY5-E6-qVw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="HgC-qq-N8f"/>
+                <constraint firstAttribute="trailing" secondItem="eY5-E6-qVw" secondAttribute="trailing" id="gJS-4J-IOQ"/>
+                <constraint firstItem="eY5-E6-qVw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="iGH-iK-sUU"/>
+                <constraint firstAttribute="bottom" secondItem="eY5-E6-qVw" secondAttribute="bottom" id="rrC-la-kY1"/>
+            </constraints>
+            <size key="customSize" width="310" height="612"/>
+            <connections>
+                <outlet property="authButton" destination="5M7-UZ-FKG" id="R4i-YV-fO3"/>
+                <outlet property="desriptionText" destination="iXU-Wk-KhV" id="8jP-GX-V5O"/>
+                <outlet property="regButton" destination="FgM-l7-ers" id="uE3-eq-a7j"/>
+                <outlet property="slideImage" destination="f0Q-jP-RF1" id="27B-K0-k8x"/>
+            </connections>
+            <point key="canvasLocation" x="189.85507246376812" y="166.74107142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="slide3" width="344" height="515.5"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
